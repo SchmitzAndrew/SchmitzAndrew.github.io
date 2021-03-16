@@ -1,3 +1,10 @@
 h1 {
     text-align: center;
 }
+
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px 10px;
+}
