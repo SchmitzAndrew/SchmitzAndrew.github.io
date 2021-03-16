@@ -2,9 +2,33 @@ h1 {
     text-align: center;
 }
 
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a{
+    display: inline-block;
+    padding: 5px;
+}
 .social-links {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 10px 10px;
+    list-style: none;
+    text-align: center;
+}
+
+.social-links li{
+    display: inline-block;
+    margin-right: 1em;
+
+}
+
+#bottom-note {
+    text-align: center;
+    font-size: .75em;
 }
