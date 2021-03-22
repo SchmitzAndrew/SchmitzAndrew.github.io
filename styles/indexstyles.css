@@ -17,6 +17,23 @@ nav a{
     display: inline-block;
     padding: 5px;
 }
+
+@media screen and (max-width: 600px){
+    .column {
+        width: 100%;
+    }
+}
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 .social-links {
     list-style: none;
     text-align: center;
