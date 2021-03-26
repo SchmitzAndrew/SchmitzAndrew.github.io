@@ -1,8 +1,43 @@
 @charset "UTF-8";
 
 /*Header*/
-h1 {
+h1{
     text-align: center;
+    font-size: 5rem;
+
+}
+
+.title-gradient{
+    /* Fallback: Set a background color. */
+    background-color: teal;
+
+    background: linear-gradient(270deg, #3ba4c6, #3bc643, #15e3f3, #e7a91f, #0a50e9);
+    background-size: 1000% 1000%;
+    background-repeat: repeat;
+
+    -webkit-animation: title-gradient 21s ease infinite;
+    -moz-animation: title-gradient 21s ease infinite;
+    animation: title-gradient 21s ease infinite;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+@-webkit-keyframes title-gradient {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@-moz-keyframes title-gradient {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@keyframes title-gradient {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
 }
 
 /*Limits website to the center*/
@@ -59,7 +94,9 @@ nav a{
 /* Footer */
 .social-links {
     list-style: none;
-    text-align: center;
+    text-align: right;
+    padding: 0;
+    margin-bottom: 1px;
 }
 
 .social-links li{
@@ -68,7 +105,8 @@ nav a{
 }
 
 #bottom-note {
-    text-align: center;
+    text-align: right;
     font-size: .75em;
     margin: 0px;
+    padding: 2px;
 }
