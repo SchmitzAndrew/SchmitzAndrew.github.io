@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 #page-container {
     position: relative;
     min-height: 100vh;
@@ -12,4 +14,62 @@
     bottom: 0;
     width: 100%;
     height: 2.5rem;            /* Footer height */
+}
+
+
+/*Fonts*/
+h1, nav, h2, h3{
+    font-family: 'Inter', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+:root {
+    color-scheme: light dark;
+}
+
+
+/*Limits website to the center*/
+#page-container {
+    max-width: 1024px; margin: 0 auto;
+}
+
+/*Navbar*/
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    display: inline-block;
+    padding: 5px;
+}
+
+/* Footer */
+.social-links {
+    list-style: none;
+    text-align: right;
+    padding: 0;
+    margin-bottom: 1px;
+}
+
+.social-links li{
+    display: inline-block;
+    margin: 10px;
+}
+
+#bottom-note {
+    text-align: right;
+    font-size: .75em;
+    margin: 0px;
+    padding: 2px;
 }

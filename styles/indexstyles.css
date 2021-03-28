@@ -1,17 +1,3 @@
-@charset "UTF-8";
-/*Fonts*/
-h1, nav, h2, h3{
-    font-family: 'Inter', sans-serif;
-}
-
-p {
-    font-family: 'Roboto', sans-serif;
-}
-
-
-:root {
-    color-scheme: light dark;
-}
 /*Header*/
 h1{
     text-align: center;
@@ -50,27 +36,6 @@ h1{
     0%{background-position:0% 51%}
     50%{background-position:100% 50%}
     100%{background-position:0% 51%}
-}
-
-/*Limits website to the center*/
-#page-container {
-    max-width: 1024px; margin: 0 auto;
-}
-/*Navbar*/
-nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
-nav li {
-    display: inline;
-}
-
-nav a{
-    display: inline-block;
-    padding: 5px;
 }
 
 /*Projects Grid */

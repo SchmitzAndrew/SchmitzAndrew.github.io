@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Meta -->
+	<meta charset="UTF-8">
+	<title>Contact Me </title>
+	<meta name="author" content="Andrew Schmitz">
+	<meta name="description" content="The contact page for Andrew Schmitz's portfolio site.">
+	<meta name= "width=device-width, initial-scale=1">
+
+	<!-- Favicon -->
+	<link rel= "shortcut icon" type="image/jfif" href = "images/charlie_brown.jfif" />
+	<!-- External -->
+	<link rel="stylesheet" type ="text/css" href ="styles/main.css">
+	<link rel="stylesheet" type ="text/css" href="styles/contactstyles.css">
+
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div id="page-container">
+	<div id="content-wrap">
+		<header>
+			<h1 class ="title-gradient">Contact Me</h1>
+			<hr>
+		</header>
+		<nav>
+			<ul>
+				<li><a href = "index.html">Home </a></li>
+				<li><a href = "projects.html">Projects</a></li>
+				<li> <a href = "/">Contact</a></li>
+				<li><a href = "fun_zone.html">Fun Zone</a></li>
+			</ul>
+		</nav>
+		<main>
+
+			<!-- Email Form -->
+			<form action="mailto:schmitzandrew03@yourdomain.com" method="POST" enctype="multipart/form-data" name="EmailForm">
+				Name:<br>
+				<input type="text" size="20" name="Contact-Name"><br><br>
+				Email:<br>
+				<input type="email" name="Contact-Email"><br><br>
+				Message:<br>
+				<textarea name="Contact-Message" rows="6″ cols="20″>
+        </textarea><br><br>
+				<button type="submit" value="Submit">Send</button>
+			</form>
+
+		</main>
+		<footer id="footer">
+			<ul class="social-links">
+				<li><a href="https://github.com/SchmitzAndrew"><img src="images/icons/GitHub-Mark-Light-32px.png" alt="Github Logo" width="28" height="28"></a></li>
+				<li><a href="mailto:schmitzandrew03@gmail.com"><img src="images/icons/email.png" alt="Email Logo" width="28" height="28"> </a></li>
+				<li><a href="https://www.linkedin.com/in/andrew-schmitz-/"><img src="images/icons/linkedin.png" alt="LinkedIn Logo" width="28" height="28"> </a>
+				</li>
+			</ul>
+			<div id="bottom-note">
+				<a href="https://schmitzandrew.github.io/">Andrew Schmitz's Portfolio</a>
+			</div>
+		</footer>
+	</div>
+</div>
+</body>
