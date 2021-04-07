@@ -26,10 +26,21 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Color */
+body{
+    background-color: #102A43;
+}
 
-/*Dark Mode*/
-:root{
-    color-scheme: light dark;
+h1, h2, p, h3 {
+    color: #D9E2EC;
+}
+
+a:link {
+    color: #3198ba;
+}
+
+a:visited {
+    color: #484F87;
 }
 
 
@@ -37,6 +48,8 @@ p {
 #page-container {
     max-width: 1024px; margin: 0 auto;
 }
+
+/*Gradient for the Titles */
 .title-gradient{
     /* Fallback: Set a background color. */
     background-color: teal;
@@ -69,6 +82,7 @@ p {
     50%{background-position:100% 50%}
     100%{background-position:0% 51%}
 }
+
 /*Navbar*/
 nav {
     list-style-type: none;
