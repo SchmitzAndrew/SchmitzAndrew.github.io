@@ -2,3 +2,12 @@ h1{
     font-size: 300%;
 }
 
+.fun-projects {
+    list-style: none;
+    text-align: center;
+}
+
+.fun-projects li {
+    display: inline-block;
+    margin-right: 1em;
+}
