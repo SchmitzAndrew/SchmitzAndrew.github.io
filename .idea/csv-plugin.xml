@@ -10,6 +10,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\fun zone\daftfun\daftfun.html">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\fun zone\daftfun\daftstyles.css">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\index.html">
           <value>
             <Attribute>
