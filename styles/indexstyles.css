@@ -17,6 +17,9 @@ h1{
     width: 50%;
 }
 
+.flur-project{
+    text-align: center;
+}
 
 .row:after { /* Clear floats after the columns */
     content: "";

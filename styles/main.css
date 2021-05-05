@@ -18,7 +18,7 @@
 
 
 /*Fonts*/
-h1, nav, h2, h3{
+h1, h2, h3, h4, nav{
     font-family: 'Inter', sans-serif;
 }
 
@@ -31,7 +31,7 @@ body{
     background-color: #102A43;
 }
 
-h1, h2, p, h3 {
+p, h1, h2, h3, h4 {
     color: #D9E2EC;
 }
 
