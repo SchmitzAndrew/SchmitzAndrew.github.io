@@ -4,21 +4,29 @@ h1{
     font-size: 6rem;
 }
 
-
-
 /*Projects Grid */
 @media screen and (max-width: 600px){
     .column {
         width: 100%;
     }
 }
+
+.column-wrapper{
+    display: table;
+    width: 100%;
+    text-indent: 25px;
+
+}
 .column {
-    float: left;
     width: 50%;
+    display: table-cell;
+
 }
 
-.flur-project{
+
+.projects{
     text-align: center;
+    font-size: 90%;
 }
 
 .row:after { /* Clear floats after the columns */
