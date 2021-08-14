@@ -100,6 +100,13 @@ nav a {
     padding: 5px;
 }
 
+a:hover, li:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+
+
 /* Footer */
 .social-links {
     list-style: none;
