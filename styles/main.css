@@ -22,7 +22,7 @@ h1, h2, h3, h4, nav{
     font-family: 'Inter', sans-serif;
 }
 
-p {
+p, a {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -44,6 +44,10 @@ a:visited {
 }
 
 
+/* Sizing */
+nav{
+    font-size: 150%;
+}
 /*Limits website to the center*/
 #page-container {
     max-width: 1024px; margin: 0 auto;
