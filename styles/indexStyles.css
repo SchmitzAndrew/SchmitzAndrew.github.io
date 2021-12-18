@@ -1,13 +1,101 @@
+@charset "UTF-8";
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+}
+
+
+/*Fonts*/
+h1, h2, h3, h4, nav{
+    font-family: 'Inter', sans-serif;
+}
+
+p, a {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Color */
+body{
+    background-color: #102A43;
+}
+
+p, h1, h2, h3, h4 {
+    color: #D9E2EC;
+}
+
+a:link {
+    color: #30d0de;
+}
+
+a:visited {
+    color: #0eade9;
+}
+
+
+/* Sizing */
+nav{
+    font-size: 170%;
+}
+/*Limits website to the center*/
+#page-container {
+    max-width: 1024px; margin: 0 auto;
+}
 /*Header*/
 h1{
     text-align: center;
     font-size: 6rem;
+    padding: 0;
 }
 
 h2{
     font-size: 150%;
 }
 
+/*Gradient for the Titles */
+.title-gradient{
+    /* Fallback: Set a background color. */
+    background-color: teal;
+
+    background: linear-gradient(270deg, #3ba4c6, #3bc643, #15e3f3, #e7a91f, #0a50e9);
+    background-size: 1000% 1000%;
+    background-repeat: repeat;
+
+    -webkit-animation: title-gradient 21s ease infinite;
+    -moz-animation: title-gradient 21s ease infinite;
+    animation: title-gradient 21s ease infinite;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+@-webkit-keyframes title-gradient {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@-moz-keyframes title-gradient {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@keyframes title-gradient {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
 /*Projects Grid */
 @media screen and (max-width: 600px){
     .column {

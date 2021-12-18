@@ -46,7 +46,7 @@ a:visited {
 
 /* Sizing */
 nav{
-    font-size: 150%;
+    font-size: 170%;
 }
 /*Limits website to the center*/
 #page-container {
@@ -87,27 +87,6 @@ nav{
     100%{background-position:0% 51%}
 }
 
-/*Navbar*/
-nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
-nav li {
-    display: inline;
-}
-
-nav a {
-    display: inline-block;
-    padding: 5px;
-}
-
-a:hover, li:hover {
-    transform: scale(1.15);
-    cursor: pointer;
-}
 
 
 
